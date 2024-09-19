@@ -1,12 +1,14 @@
 import requests
 import threading
+import os
 
 def download_file(url, filename):
     try:
         r = requests.get(url)
-        r.raise_for_status()  # 检查请求是否成功
-        with open(filename, "wb") as file:
+        r.raise_for_status()
+        with open(os.path.join(os.getcwd(), filename), "wb") as file:
             file.write(r.content)
+        print(f"Successfully downloaded {filename}")
     except requests.RequestException as e:
         print(f"Error downloading {url}: {e}")
 
@@ -30,3 +32,7 @@ for thread in threads:
 # 等待所有线程结束
 for thread in threads:
     thread.join()
+
+# 打印当前目录内容
+print("Current directory contents:")
+print(os.listdir(os.getcwd()))
