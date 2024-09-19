@@ -10,21 +10,31 @@ Copyright © 2022 by Vincent, All Rights Reserved.
 '''
 
 import requests
+import threading
 
-allChina = "https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china.list"
+def download_file(url, filename):
+    r = requests.get(url)
+    with open(filename, "wb") as file:
+        file.write(r.content)
 
-v4China = "https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china4.list"
+# 定义URL和文件名
+download_tasks = [
+    ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china.list", "IP.China.list"),
+    ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china4.list", "IPv4.China.list"),
+    ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china6.list", "IPv6.China.list")
+]
 
-v6China = "https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china6.list"
+# 创建线程
+threads = []
+for url, filename in download_tasks:
+    thread = threading.Thread(target=download_file, args=(url, filename))
+    threads.append(thread)
 
-r = requests.get(allChina) 
-with open("IP.China.list", "wb") as allChinaIP:
-         allChinaIP.write(r.content)
+# 启动线程
+for thread in threads:
+    thread.start()
 
-r = requests.get(v4China) 
-with open("IPv4.China.list", "wb") as v4ChinaIP:
-         v4ChinaIP.write(r.content)
+# 等待所有线程结束
+for thread in threads:
+    thread.join()
 
-r = requests.get(v6China) 
-with open("IPv6.China.list", "wb") as v6ChinaIP:
-         v6ChinaIP.write(r.content)
