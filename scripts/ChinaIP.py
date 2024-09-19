@@ -1,21 +1,14 @@
-'''
-Author: Vincent Young
-Date: 2022-11-17 02:14:24
-LastEditors: Vincent Young
-LastEditTime: 2022-11-17 03:19:20
-FilePath: /ASN-China/syncIP.py
-Telegram: https://t.me/missuo
-
-Copyright © 2022 by Vincent, All Rights Reserved. 
-'''
-
 import requests
 import threading
 
 def download_file(url, filename):
-    r = requests.get(url)
-    with open(filename, "wb") as file:
-        file.write(r.content)
+    try:
+        r = requests.get(url)
+        r.raise_for_status()  # 检查请求是否成功
+        with open(filename, "wb") as file:
+            file.write(r.content)
+    except requests.RequestException as e:
+        print(f"Error downloading {url}: {e}")
 
 # 定义URL和文件名
 download_tasks = [
@@ -37,4 +30,3 @@ for thread in threads:
 # 等待所有线程结束
 for thread in threads:
     thread.join()
-
