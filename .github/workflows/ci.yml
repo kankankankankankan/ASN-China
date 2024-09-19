@@ -1,32 +1,40 @@
 name: Update ASN and IP List
 
-on: 
+on:
   push:
   workflow_dispatch:
   schedule:
     - cron: "0 16 * * *"
 
 jobs:
-  build: 
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python 3.8
         uses: actions/setup-python@v4
         with:
           python-version: 3.8
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests lxml
-      - name: Run Python
+
+      - name: Run Python scripts
         run: |
           python scripts/ChinaIP.py
           python scripts/ChinaASN.py
+
+      - name: Check if files are generated
+        run: ls -la scripts/
+
+      - name: Check git status
+        run: git status
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update IP List
-          file_pattern: "IP.China.list IPv4.China.list IPv6.China.list"
-
-
+          file_pattern: "*.list"   # 更通用的匹配规则，提交所有 .list 文件
