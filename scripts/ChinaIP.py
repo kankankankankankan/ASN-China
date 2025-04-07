@@ -15,8 +15,8 @@ def download_file(url, filename):
 # 定义URL和文件名
 download_tasks = [
     ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china.list", "IP.China.list"),
-    ("https://raw.githubusercontent.com/kankankankankankan/china-ip-list/master/chnroute.txt", "IPv4.China.list"),
-    ("https://raw.githubusercontent.com/kankankankankankan/china-ip-list/master/chnroute_v6.txt", "IPv6.China.list")
+    ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china4.list", "IPv4.China.list"),
+    ("https://raw.githubusercontent.com/cbuijs/ipasn/master/country-asia-china6.list", "IPv6.China.list")
 ]
 
 # 创建线程
