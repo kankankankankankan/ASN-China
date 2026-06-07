@@ -59,7 +59,26 @@ GitHub Actions 已配置定时运行，入口在 `.github/workflows/ci.yml`。
 - 每天按 cron 定时运行。
 - 在 GitHub Actions 页面手动运行 `workflow_dispatch`。
 
-Actions 会执行：
+手动运行步骤：
+
+1. 打开 GitHub 仓库页面。
+2. 进入 `Actions`。
+3. 选择 `Update ASN and IP List`。
+4. 点击 `Run workflow`。
+5. 选择 `target`。
+6. 点击绿色的 `Run workflow`。
+
+`target` 可选值：
+
+```text
+all: 更新全部列表
+ip: 只更新中国 IP 列表
+base-asn: 只更新 ASN.China.list 和 ASN.US.list
+service-asn: 只更新服务类 ASN，例如 ASN.Telegram.list
+country-asn: 只更新国家或地区 ASN，例如 ASN.Japan.list 和 ASN.Korea.list
+```
+
+`all` 会执行：
 
 ```bash
 python scripts/IP_CN.py

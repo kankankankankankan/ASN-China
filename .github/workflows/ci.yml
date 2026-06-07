@@ -3,6 +3,18 @@ name: Update ASN and IP List
 on: 
   push:
   workflow_dispatch:
+    inputs:
+      target:
+        description: "Update target"
+        required: true
+        default: "all"
+        type: choice
+        options:
+          - all
+          - ip
+          - base-asn
+          - service-asn
+          - country-asn
   schedule:
     - cron: "0 16 * * *"
 
@@ -22,11 +34,24 @@ jobs:
           pip install requests lxml
       - name: Run Python
         run: |
-          python scripts/IP_CN.py
-          python scripts/ASN_CN.py
-          python scripts/ASN_US.py
-          python scripts/ASN_SERVICES.py
-          python scripts/ASN_COUNTRIES.py
+          TARGET="${{ github.event.inputs.target || 'all' }}"
+
+          if [ "$TARGET" = "all" ] || [ "$TARGET" = "ip" ]; then
+            python scripts/IP_CN.py
+          fi
+
+          if [ "$TARGET" = "all" ] || [ "$TARGET" = "base-asn" ]; then
+            python scripts/ASN_CN.py
+            python scripts/ASN_US.py
+          fi
+
+          if [ "$TARGET" = "all" ] || [ "$TARGET" = "service-asn" ]; then
+            python scripts/ASN_SERVICES.py
+          fi
+
+          if [ "$TARGET" = "all" ] || [ "$TARGET" = "country-asn" ]; then
+            python scripts/ASN_COUNTRIES.py
+          fi
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: Update IP List
