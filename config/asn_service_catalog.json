@@ -1,0 +1,36 @@
+{
+  "telegram": {
+    "name": "Telegram",
+    "output": "ASN.Telegram.list",
+    "description": "ASN Information for Telegram.",
+    "source": "https://rest.db.ripe.net/search.json",
+    "discoveries": [
+      {
+        "type": "ripe_org",
+        "org": "ORG-TMI4-RIPE",
+        "default_name": "Telegram Messenger Inc",
+        "required": true
+      },
+      {
+        "type": "ripe_org",
+        "org": "ORG-TMI5-RIPE",
+        "default_name": "Telegram Messenger Inc",
+        "required": true
+      }
+    ]
+  },
+  "netflix": {
+    "name": "Netflix",
+    "output": "ASN.Netflix.list",
+    "description": "ASN Information for Netflix.",
+    "source": "https://bgp.he.net/irr/as-set/as-nflx",
+    "discoveries": [
+      {
+        "type": "bgp_he_as_set",
+        "as_set": "as-nflx",
+        "default_name": "Netflix",
+        "required": true
+      }
+    ]
+  }
+}

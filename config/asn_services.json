@@ -1,34 +1,5 @@
-[
-  {
-    "name": "Telegram",
-    "output": "ASN.Telegram.list",
-    "description": "ASN Information for Telegram.",
-    "source": "https://rest.db.ripe.net/search.json?source=RIPE&inverse-attribute=org&type-filter=aut-num&query-string=ORG-TMI4-RIPE",
-    "discoveries": [
-      {
-        "type": "ripe_org",
-        "org": "ORG-TMI4-RIPE",
-        "default_name": "Telegram Messenger Inc",
-        "required": true
-      }
-    ],
-    "asns": [
-      {
-        "number": 44907,
-        "name": "Telegram Messenger CDN"
-      },
-      {
-        "number": 59930,
-        "name": "Telegram Messenger Inc"
-      },
-      {
-        "number": 62014,
-        "name": "Telegram Messenger Inc"
-      },
-      {
-        "number": 62041,
-        "name": "Telegram Messenger Inc"
-      }
-    ]
-  }
-]
+{
+  "enabled": [
+    "telegram"
+  ]
+}

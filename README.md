@@ -41,63 +41,41 @@ RULE-SET, https://raw.githubusercontent.com/missuo/ASN-China/main/ASN.Telegram.l
 Service ASN lists are generated from `config/asn_services.json`.
 
 ### Add a service list
-To add another service, append an item to `config/asn_services.json`.
+To enable a catalog service, add its key to `enabled` in `config/asn_services.json`.
 
-Services can use two ASN sources:
-
-- `discoveries`: ASN entries discovered at runtime from an external registry.
-- `asns`: ASN entries maintained in the config. These also override display names for discovered ASN numbers.
-
-Telegram uses RIPE organisation discovery. Each run queries RIPE for all `aut-num` objects linked to `ORG-TMI4-RIPE`, so newly added Telegram ASN entries are picked up automatically.
+Example, enable Netflix:
 
 ```json
 {
-  "type": "ripe_org",
-  "org": "ORG-TMI4-RIPE",
-  "default_name": "Telegram Messenger Inc",
-  "required": true
-}
-```
-
-`required: true` means the script fails when the registry cannot be reached. This prevents silently publishing stale generated data.
-
-For services without a stable registry organisation or AS-SET source, use manual `asns`.
-
-```json
-{
-  "name": "Example",
-  "output": "ASN.Example.list",
-  "description": "ASN Information for Example.",
-  "source": "https://bgp.he.net",
-  "asns": [
-    {
-      "number": 64512,
-      "name": "Example Network"
-    }
+  "enabled": [
+    "telegram",
+    "netflix"
   ]
 }
 ```
 
-For Netflix, append this item. Netflix publishes its ASN set as `as-nflx`.
+Services can use two ASN sources:
+
+- `discoveries`: ASN entries discovered at runtime from an external registry.
+
+Telegram uses RIPE organisation discovery for `ORG-TMI4-RIPE` and `ORG-TMI5-RIPE`.
+Netflix uses the bgp.he.net AS-SET `as-nflx`.
+
+Built-in service definitions live in `config/asn_service_catalog.json`.
+For services that are not in the catalog, add a new catalog entry.
 
 ```json
-{
-  "name": "Netflix",
-  "output": "ASN.Netflix.list",
-  "description": "ASN Information for Netflix.",
-  "source": "https://bgp.he.net/irr/as-set/as-nflx",
-  "asns": [
+"example": {
+  "name": "Example",
+  "output": "ASN.Example.list",
+  "description": "ASN Information for Example.",
+  "source": "https://bgp.he.net",
+  "discoveries": [
     {
-      "number": 2906,
-      "name": "Netflix Streaming Services Inc."
-    },
-    {
-      "number": 40027,
-      "name": "Netflix Streaming Services Inc."
-    },
-    {
-      "number": 55095,
-      "name": "Netflix Inc"
+      "type": "bgp_he_as_set",
+      "as_set": "as-example",
+      "default_name": "Example",
+      "required": true
     }
   ]
 }

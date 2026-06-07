@@ -51,48 +51,85 @@ country-asn: 只更新国家或地区 ASN，例如 ASN.Japan.list 和 ASN.Korea.
 
 1. 在 GitHub 仓库里打开 `config/asn_services.json`。
 2. 点击编辑。
-3. 追加服务配置。
+3. 把服务 key 加到 `enabled`。
 4. 提交改动。
 5. 进入 `Actions`。
 6. 运行 `Update ASN and IP List`。
 7. `target` 选择 `service-asn`。
 8. 等待 Actions 自动生成并提交新列表。
 
-普通服务示例：
+例如启用 Netflix，只需要把：
 
 ```json
 {
+  "enabled": [
+    "telegram"
+  ]
+}
+```
+
+改成：
+
+```json
+{
+  "enabled": [
+    "telegram",
+    "netflix"
+  ]
+}
+```
+
+然后在 Actions 里选择 `service-asn`，会生成 `ASN.Netflix.list`。
+
+当前服务目录 `config/asn_service_catalog.json` 已内置：
+
+```text
+telegram
+netflix
+```
+
+服务目录里已经写好自动发现规则，普通使用时不用填写 ASN。
+
+如果服务不在目录里，再编辑 `config/asn_service_catalog.json` 追加完整配置：
+
+```json
+"example": {
   "name": "Example",
   "output": "ASN.Example.list",
   "description": "ASN Information for Example.",
   "source": "https://bgp.he.net",
-  "asns": [
+  "discoveries": [
     {
-      "number": 64512,
-      "name": "Example Network"
+      "type": "bgp_he_as_set",
+      "as_set": "as-example",
+      "default_name": "Example",
+      "required": true
     }
   ]
 }
 ```
 
-Telegram 当前使用 RIPE 自动发现：
-
-```json
-{
-  "type": "ripe_org",
-  "org": "ORG-TMI4-RIPE",
-  "default_name": "Telegram Messenger Inc",
-  "required": true
-}
-```
+Telegram 当前使用 RIPE 自动发现，并配置了 `ORG-TMI4-RIPE` 和 `ORG-TMI5-RIPE`。
 
 含义：
 
 1. Actions 每次运行时查询 RIPE。
-2. 查询 `ORG-TMI4-RIPE` 关联的 `aut-num`。
-3. Telegram 后期新增 ASN 时，只要 RIPE 里归属这个组织，生成结果会自动包含新 ASN。
+2. 查询 `ORG-TMI4-RIPE` 和 `ORG-TMI5-RIPE` 关联的 `aut-num`。
+3. Telegram 后期新增 ASN 时，只要 RIPE 里归属这些组织，生成结果会自动包含新 ASN。
 
-手动填写的 `asns` 用于补充显示名称。例如 `44907` 可以显示为 `Telegram Messenger CDN`。
+Telegram 不需要手动填写 ASN。Actions 会根据 RIPE 返回结果生成 `ASN.Telegram.list`。
+
+Netflix 使用 bgp.he.net 的 AS-SET 自动发现：
+
+```json
+{
+  "type": "bgp_he_as_set",
+  "as_set": "as-nflx",
+  "default_name": "Netflix"
+}
+```
+
+Netflix 不需要手动填写 ASN。Actions 会根据 `as-nflx` AS-SET 返回结果生成 `ASN.Netflix.list`。
 
 ## 后期新增国家或地区
 
