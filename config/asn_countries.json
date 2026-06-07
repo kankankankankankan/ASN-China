@@ -1,0 +1,12 @@
+[
+  {
+    "code": "JP",
+    "name": "Japan",
+    "output": "ASN.Japan.list"
+  },
+  {
+    "code": "KR",
+    "name": "Korea",
+    "output": "ASN.Korea.list"
+  }
+]
