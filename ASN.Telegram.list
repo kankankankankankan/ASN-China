@@ -1,5 +1,5 @@
 // ASN Information for Telegram. (https://rest.db.ripe.net/search.json?source=RIPE&inverse-attribute=org&type-filter=aut-num&query-string=ORG-TMI4-RIPE)
-// Last Updated: UTC 2026-06-07 02:01:09
+// Last Updated: UTC 2026-06-07 02:06:12
 // Generated from config/asn_services.json
 
 IP-ASN,44907 // Telegram Messenger CDN
