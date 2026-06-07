@@ -103,13 +103,8 @@ For Netflix, append this item. Netflix publishes its ASN set as `as-nflx`.
 }
 ```
 
-After editing the config, run:
-
-```bash
-python3 scripts/ASN_SERVICES.py
-```
-
-The script will generate the file defined by `output`, for example `ASN.Netflix.list`.
+After editing the config, run the `Update ASN and IP List` workflow in GitHub Actions and choose `service-asn`.
+The workflow will generate the file defined by `output`, for example `ASN.Netflix.list`.
 
 ### Add a country or region list
 Country and region ASN lists are generated from `config/asn_countries.json`.
@@ -153,22 +148,18 @@ To add another country or region, append an item:
 }
 ```
 
-Then run:
+Then run the `Update ASN and IP List` workflow in GitHub Actions and choose `country-asn`.
 
-```bash
-python3 scripts/ASN_COUNTRIES.py
-```
+### GitHub Actions
 
-### Verify after changes
-Run these checks after adding any service or country list:
+Manual workflow targets:
 
-```bash
-python3 -m json.tool config/asn_services.json
-python3 -m json.tool config/asn_countries.json
-python3 -m py_compile scripts/ASN_SERVICES.py
-python3 -m py_compile scripts/ASN_COUNTRIES.py
-python3 scripts/ASN_SERVICES.py
-python3 scripts/ASN_COUNTRIES.py
+```text
+all: update all lists
+ip: update China IP lists
+base-asn: update ASN.China.list and ASN.US.list
+service-asn: update service ASN lists
+country-asn: update country or region ASN lists
 ```
 
 ## Data Source
