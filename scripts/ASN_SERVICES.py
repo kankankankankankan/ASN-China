@@ -4,8 +4,10 @@ Generate ASN rule lists from config/asn_services.json.
 from datetime import datetime, timezone
 import json
 from pathlib import Path
+import re
 
 import requests
+from lxml import etree
 
 
 ROOT_DIR = Path(__file__).resolve().parents[1]
@@ -126,24 +128,18 @@ def fetch_bgp_he_as_set_asns(discovery):
     response = requests.get(url, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
+    tree = etree.HTML(response.text)
+    plain_text = "\n".join(tree.xpath("//text()")) if tree is not None else response.text
+    members = re.findall(r"\bmembers:\s*AS\s*(\d+)\b", plain_text, flags=re.IGNORECASE)
+
     asns = []
-    for line in response.text.splitlines():
-        stripped = line.strip()
-        if "members:" not in stripped:
-            continue
-
-        member = stripped.split("members:", 1)[1].strip()
-        if not member.upper().startswith("AS"):
-            continue
-
-        asn_digits = "".join(char for char in member[2:] if char.isdigit())
-        if asn_digits:
-            asns.append(
-                {
-                    "number": int(asn_digits),
-                    "name": discovery.get("default_name", "Unknown"),
-                }
-            )
+    for asn_number in sorted({int(member) for member in members}):
+        asns.append(
+            {
+                "number": asn_number,
+                "name": discovery.get("default_name", "Unknown"),
+            }
+        )
     return asns
 
 
@@ -184,7 +180,14 @@ def discover_asns(service):
                 )
         elif discovery_type == "bgp_he_as_set":
             try:
-                discovered_asns.extend(fetch_bgp_he_as_set_asns(discovery))
+                asns = fetch_bgp_he_as_set_asns(discovery)
+                if not asns and discovery.get("required", False):
+                    raise RuntimeError(
+                        "AS-SET {} did not return any ASN".format(
+                            discovery["as_set"]
+                        )
+                    )
+                discovered_asns.extend(asns)
             except requests.RequestException as error:
                 if discovery.get("required", False):
                     raise RuntimeError(
