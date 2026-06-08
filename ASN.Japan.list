@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-07 16:34:00
+// Last Updated: UTC 2026-06-08 17:11:05
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -69,7 +69,7 @@ IP-ASN,7527 // Japan Internet Xing Co., Ltd.
 IP-ASN,7529 // GMO NetIRD, Inc.
 IP-ASN,7530 // BroadBand Tower, Inc.
 IP-ASN,7660 // Asia Pacific Advanced Network - Japan
-IP-ASN,7663 // FUJIMIC INC.
+IP-ASN,7663 // FUJI NEXTERA LABO INC.
 IP-ASN,7664 // HARENET INC.
 IP-ASN,7665 // Okayama Prefectural Government
 IP-ASN,7667 // KDDI Research, Inc.
@@ -468,7 +468,6 @@ IP-ASN,58650 // Warabi Cable Vision Co., Ltd.
 IP-ASN,58651 // GMO Internet Group, Inc.
 IP-ASN,58652 // Kochi University
 IP-ASN,58653 // UD Trucks Corporation, Volvo Information Technology Japan
-IP-ASN,58654 // BLESS Co.,Ltd.
 IP-ASN,58784 // Rissho University
 IP-ASN,58785 // Tohoku Gakuin University
 IP-ASN,58788 // Chiroro-Net Co.,Ltd.
