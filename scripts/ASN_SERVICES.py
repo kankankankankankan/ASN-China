@@ -14,6 +14,13 @@ ROOT_DIR = Path(__file__).resolve().parents[1]
 CONFIG_PATH = ROOT_DIR / "config" / "asn_services.json"
 CATALOG_PATH = ROOT_DIR / "config" / "asn_service_catalog.json"
 REQUEST_TIMEOUT = 30
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/107.0.0.0 Safari/537.36"
+    )
+}
 
 
 def load_json(path):
@@ -114,7 +121,7 @@ def fetch_ripe_org_asns(discovery):
         "inverse-attribute": "org",
         "type-filter": "aut-num",
     }
-    response = requests.get(url, params=params, timeout=REQUEST_TIMEOUT)
+    response = requests.get(url, params=params, headers=HEADERS, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
     return parse_ripe_aut_nums(
         response.json(),
@@ -125,12 +132,19 @@ def fetch_ripe_org_asns(discovery):
 def fetch_bgp_he_as_set_asns(discovery):
     as_set = discovery["as_set"]
     url = "https://bgp.he.net/irr/as-set/{}".format(as_set)
-    response = requests.get(url, timeout=REQUEST_TIMEOUT)
+    response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
     tree = etree.HTML(response.text)
     plain_text = "\n".join(tree.xpath("//text()")) if tree is not None else response.text
-    members = re.findall(r"\bmembers:\s*AS\s*(\d+)\b", plain_text, flags=re.IGNORECASE)
+    member_values = re.findall(
+        r"\bmembers:\s*((?:,?\s*AS\s*\d+\s*)+)",
+        plain_text,
+        flags=re.IGNORECASE,
+    )
+    members = []
+    for member_value in member_values:
+        members.extend(re.findall(r"\bAS\s*(\d+)\b", member_value, flags=re.IGNORECASE))
 
     asns = []
     for asn_number in sorted({int(member) for member in members}):
@@ -145,7 +159,7 @@ def fetch_bgp_he_as_set_asns(discovery):
 
 def lookup_bgp_he_asn_name(asn_number, default_name):
     url = "https://bgp.he.net/AS{}".format(asn_number)
-    response = requests.get(url, timeout=REQUEST_TIMEOUT)
+    response = requests.get(url, headers=HEADERS, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
 
     marker = "<title>AS{} ".format(asn_number)
@@ -240,16 +254,9 @@ def write_service(service):
 
     updated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S")
     output_path = ROOT_DIR / service["output"]
-    description = service.get(
-        "description",
-        "ASN Information for {}.".format(service["name"]),
-    )
-    source = service.get("source", "https://github.com/missuo/ASN-China")
 
     lines = [
-        "// {} ({})".format(description, source),
         "// Last Updated: UTC {}".format(updated_at),
-        "// Generated from config/asn_services.json",
         "",
     ]
 

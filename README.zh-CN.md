@@ -86,6 +86,7 @@ country-asn: 只更新国家或地区 ASN，例如 ASN.Japan.list 和 ASN.Korea.
 ```text
 telegram
 netflix
+disney
 ```
 
 服务目录里已经写好自动发现规则，普通使用时不用填写 ASN。
@@ -130,6 +131,18 @@ Netflix 使用 bgp.he.net 的 AS-SET 自动发现：
 ```
 
 Netflix 不需要手动填写 ASN。Actions 会根据 `as-nflx` AS-SET 返回结果生成 `ASN.Netflix.list`。
+
+Disney 使用 bgp.he.net 的 AS-SET 自动发现：
+
+```json
+{
+  "type": "bgp_he_as_set",
+  "as_set": "AS-DSTL-2",
+  "default_name": "Disney Streaming Services"
+}
+```
+
+启用 Disney 时，在 `enabled` 里加入 `disney`，Actions 会生成 `ASN.Disney.list`。
 
 ## 后期新增国家或地区
 

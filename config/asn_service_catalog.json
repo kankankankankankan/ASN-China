@@ -32,5 +32,19 @@
         "required": true
       }
     ]
+  },
+  "disney": {
+    "name": "Disney",
+    "output": "ASN.Disney.list",
+    "description": "ASN Information for Disney Streaming Services.",
+    "source": "https://bgp.he.net/irr/as-set/AS-DSTL-2",
+    "discoveries": [
+      {
+        "type": "bgp_he_as_set",
+        "as_set": "AS-DSTL-2",
+        "default_name": "Disney Streaming Services",
+        "required": true
+      }
+    ]
   }
 }

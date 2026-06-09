@@ -60,6 +60,7 @@ Services can use two ASN sources:
 
 Telegram uses RIPE organisation discovery for `ORG-TMI4-RIPE` and `ORG-TMI5-RIPE`.
 Netflix uses the bgp.he.net AS-SET `as-nflx`.
+Disney uses the bgp.he.net AS-SET `AS-DSTL-2`.
 
 Built-in service definitions live in `config/asn_service_catalog.json`.
 For services that are not in the catalog, add a new catalog entry.
