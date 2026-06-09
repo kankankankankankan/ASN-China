@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-08 17:11:05
+// Last Updated: UTC 2026-06-09 02:46:07
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -198,7 +198,7 @@ IP-ASN,17960 // University of the Ryukyus
 IP-ASN,17961 // mitene internet co., ltd.
 IP-ASN,17977 // NF Park Bldg.3F, 9-15, Futaba 2-Chome
 IP-ASN,18068 // Dream Wave Shizuoka Co. Ltd.
-IP-ASN,18069 // SB Technology Corp.
+IP-ASN,18069 // SoftBank Corp.
 IP-ASN,18070 // Global Network Core Co.,Ltd.
 IP-ASN,18071 // Panasonic Information Systems Co., Ltd
 IP-ASN,18072 // NTT DOCOMO BUSINESS, Inc.

@@ -1,6 +1,4 @@
-// ASN Information for Netflix. (https://bgp.he.net/irr/as-set/as-nflx)
-// Last Updated: UTC 2026-06-08 17:11:05
-// Generated from config/asn_services.json
+// Last Updated: UTC 2026-06-09 02:46:07
 
 IP-ASN,2906 // Netflix
 IP-ASN,40027 // Netflix
