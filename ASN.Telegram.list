@@ -1,16 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-// ASN Information for Telegram. (https://rest.db.ripe.net/search.json?source=RIPE&inverse-attribute=org&type-filter=aut-num&query-string=ORG-TMI4-RIPE)
-// Last Updated: UTC 2026-06-07 02:06:12
-=======
-// ASN Information for Telegram. (https://rest.db.ripe.net/search.json)
-// Last Updated: UTC 2026-06-07 02:08:19
->>>>>>> Stashed changes
-=======
-// ASN Information for Telegram. (https://rest.db.ripe.net/search.json)
-// Last Updated: UTC 2026-06-07 02:19:52
->>>>>>> 003346c1927c0e9624012e1563daa2de066fa5f2
-// Generated from config/asn_services.json
+// Last Updated: UTC 2026-06-09 02:51:37
 
 IP-ASN,44907 // Telegram Messenger Inc
 IP-ASN,59930 // Telegram Messenger Inc
