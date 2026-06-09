@@ -51,6 +51,46 @@ def load_services():
     return services
 
 
+def load_enabled_keys_and_catalog():
+    config = load_json(CONFIG_PATH)
+    if isinstance(config, list):
+        enabled_keys = {
+            service.get("name", "").strip().lower()
+            for service in config
+        }
+        catalog = {
+            service.get("name", "").strip().lower(): service
+            for service in config
+        }
+        return enabled_keys, catalog
+
+    catalog = config.get("catalog", load_json(CATALOG_PATH))
+    enabled_keys = {
+        str(service_key).strip().lower()
+        for service_key in config.get("enabled", [])
+    }
+    normalized_catalog = {
+        str(service_key).strip().lower(): service
+        for service_key, service in catalog.items()
+    }
+    return enabled_keys, normalized_catalog
+
+
+def cleanup_disabled_services():
+    enabled_keys, catalog = load_enabled_keys_and_catalog()
+    for service_key, service in catalog.items():
+        if service_key in enabled_keys:
+            continue
+
+        output = service.get("output")
+        if not output:
+            continue
+
+        output_path = ROOT_DIR / output
+        if output_path.exists():
+            output_path.unlink()
+
+
 def validate_service(service):
     required_fields = ("name", "output")
     missing_fields = [field for field in required_fields if field not in service]
@@ -267,6 +307,7 @@ def write_service(service):
 
 
 def main():
+    cleanup_disabled_services()
     for service in load_services():
         write_service(service)
 
