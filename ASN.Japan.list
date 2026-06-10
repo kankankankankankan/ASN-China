@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-09 16:58:36
+// Last Updated: UTC 2026-06-10 17:09:59
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -463,9 +463,9 @@ IP-ASN,56218 // QGPOP
 IP-ASN,58645 // Miyagi Cable TV Co.,Ltd
 IP-ASN,58647 // Kagawa University
 IP-ASN,58648 // AT-I, Inc.
-IP-ASN,58649 // GMO Internet Group, Inc.
+IP-ASN,58649 // GMO Internet, Inc.
 IP-ASN,58650 // Warabi Cable Vision Co., Ltd.
-IP-ASN,58651 // GMO Internet Group, Inc.
+IP-ASN,58651 // GMO Internet, Inc.
 IP-ASN,58652 // Kochi University
 IP-ASN,58653 // UD Trucks Corporation, Volvo Information Technology Japan
 IP-ASN,58784 // Rissho University
@@ -731,7 +731,7 @@ IP-ASN,152873 // Neodyland
 IP-ASN,152874 // JONET
 IP-ASN,152875 // MEEQ Inc.
 IP-ASN,152876 // Comota Co., Ltd.
-IP-ASN,152877 // APNIC ASN block
+IP-ASN,152877 // Nintendo Co., Ltd
 IP-ASN,153929 // Allied Business Inc.
 IP-ASN,199436 // BangLong Yang
 IP-ASN,199767 // Pinjia Zhao

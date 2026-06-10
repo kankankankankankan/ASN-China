@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-06-09 16:58:37
+// Last Updated: UTC 2026-06-10 17:09:59
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -841,12 +841,12 @@ IP-ASN,152230 // Woowa Brothers Corp.
 IP-ASN,152231 // Quantil, Inc. Korea
 IP-ASN,152232 // kt cloud Co., Ltd
 IP-ASN,152233 // trizn inc.
-IP-ASN,152280 // APNIC ASN block
+IP-ASN,152280 // MG Credit Information
 IP-ASN,152282 // National Fire Hospital
 IP-ASN,152283 // Korea Elevator Safety Agency
 IP-ASN,152284 // Daewoo Information Systems
 IP-ASN,152285 // welcomepayments
-IP-ASN,152286 // APNIC ASN block
+IP-ASN,152286 // Meritz Securities Co., Ltd.
 IP-ASN,152287 // HANWHALIFE
 IP-ASN,152288 // KOSPO
 IP-ASN,152289 // KIMCHANG
