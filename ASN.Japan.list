@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-10 17:09:59
+// Last Updated: UTC 2026-06-11 17:19:12
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -397,7 +397,6 @@ IP-ASN,38641 // Osaka Sangyo University
 IP-ASN,38642 // Yoshizou XYZ Solutions
 IP-ASN,38643 // UNIADEX, LTD.
 IP-ASN,38644 // INTERNET MULTIFEED CO.
-IP-ASN,38646 // Neodyland
 IP-ASN,38648 // F-REGI Co.,Ltd.
 IP-ASN,38649 // The University of Electro-Communications
 IP-ASN,38651 // MIXI, Inc.
@@ -494,7 +493,6 @@ IP-ASN,59108 // KATCH NETWORK INC.
 IP-ASN,59109 // Hitachi,Ltd., Managed & Platform Services Business Division
 IP-ASN,59110 // BPS Inc.
 IP-ASN,59111 // Akita International University
-IP-ASN,59113 // RICOH JAPAN Corporation
 IP-ASN,59115 // CYBERDYNE Inc.
 IP-ASN,59116 // AIG Technologies KK
 IP-ASN,59118 // NRI SecureTechnologies, Ltd.
@@ -736,7 +734,7 @@ IP-ASN,153929 // Allied Business Inc.
 IP-ASN,199436 // BangLong Yang
 IP-ASN,199767 // Pinjia Zhao
 IP-ASN,201345 // Shuma Watanabe
-IP-ASN,211252 // Akari Networks K.K.
+IP-ASN,211252 // Marushin K.K.
 IP-ASN,212259 // Astrix Co., Ltd.
 IP-ASN,213471 // YAMAMOTO Hiroshi
 IP-ASN,214430 // Takahiro Fukushima

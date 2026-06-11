@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-06-10 17:09:59
+// Last Updated: UTC 2026-06-11 17:19:13
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -866,6 +866,7 @@ IP-ASN,154270 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,198840 // YUJUN KIM trading as ALCLOUD
 IP-ASN,200140 // Hanseung Kim
 IP-ASN,200965 // Dongmin Lee
+IP-ASN,200983 // YoungSeo Kim
 IP-ASN,201159 // Kawaii Beer Network
 IP-ASN,201423 // Seojun Yun
 IP-ASN,201666 // Yoonsu Son trading as YSSOFT
@@ -874,7 +875,6 @@ IP-ASN,202348 // Young Min Kim trading as Ylem
 IP-ASN,202437 // Heo Jun trading as ParkAppsHouse
 IP-ASN,203040 // Sangmyoung Lee
 IP-ASN,206439 // Minseo Kim
-IP-ASN,210138 // Yang Hyeokjun
 IP-ASN,210528 // Navox co.,Ltd
 IP-ASN,210576 // Sangmin Lee trading as YAGUMYAGUM
 IP-ASN,210919 // Navox co.,Ltd
