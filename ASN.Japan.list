@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-11 17:19:12
+// Last Updated: UTC 2026-06-12 17:03:52
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -576,7 +576,6 @@ IP-ASN,131923 // MCAT Ltd.
 IP-ASN,131924 // Kansai Airports
 IP-ASN,131925 // FAMILY NET JAPAN INCORPORATED
 IP-ASN,131926 // Cable Television Saiki Co. , Ltd.
-IP-ASN,131927 // TV Matsumoto Cablevision
 IP-ASN,131928 // Tottori Teletopia Co., Ltd.
 IP-ASN,131929 // Yamanashi CATV Co,. ltd
 IP-ASN,131930 // Tokyo Broadcasting System Television, Inc.
@@ -725,6 +724,7 @@ IP-ASN,152868 // THX Corp.
 IP-ASN,152869 // ICJ, Inc.
 IP-ASN,152870 // Incorporated Educational Institution Kaichigakuen
 IP-ASN,152871 // TAIYO NIPPON SANSO CORPORATION
+IP-ASN,152872 // VirtualLink Networks
 IP-ASN,152873 // Neodyland
 IP-ASN,152874 // JONET
 IP-ASN,152875 // MEEQ Inc.
