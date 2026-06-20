@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-19 16:52:04
+// Last Updated: UTC 2026-06-20 16:35:48
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -419,6 +419,7 @@ IP-ASN,45689 // Convivial Net
 IP-ASN,45690 // Nihon Central TV Co.,Inc.
 IP-ASN,45691 // DODO K.K.
 IP-ASN,51044 // Kazuki Yamaguchi
+IP-ASN,54132 // Finder Networks LLC
 IP-ASN,54415 // WIZ K.K.
 IP-ASN,55373 // Foundation for Biomedical Research and Innovation at Kobe
 IP-ASN,55374 // FUJITSU LIMITED
