@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-06-20 16:35:48
+// Last Updated: UTC 2026-06-21 16:36:55
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -789,6 +789,7 @@ IP-ASN,131870 // KSPO
 IP-ASN,131871 // HYUNDAICARD CO.
 IP-ASN,131872 // IITP
 IP-ASN,131873 // HARIM
+IP-ASN,131874 // KDB CAPITAL CORPORATION
 IP-ASN,131878 // HYUNDAICARD CO.
 IP-ASN,131882 // Chungnam National University Hospital
 IP-ASN,131883 // INSTITUTES OF GREENBIO SCIENCE AND TECHNOLOGY

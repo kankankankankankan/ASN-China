@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-20 16:35:48
+// Last Updated: UTC 2026-06-21 16:36:55
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -633,6 +633,7 @@ IP-ASN,133203 // SBI BITS Co., Ltd.
 IP-ASN,133405 // RETN Co., Ltd.
 IP-ASN,133458 // FPT Smart Cloud Japan Co., Ltd
 IP-ASN,133476 // First Innovation K.K.
+IP-ASN,133780 // Quantum Mesh Co.,Ltd.
 IP-ASN,133782 // Elsevier Ltd
 IP-ASN,133900 // Gilead Sciences, Inc.
 IP-ASN,134351 // Leaseweb Japan K.K.
@@ -650,6 +651,7 @@ IP-ASN,137508 // rainbow network limited
 IP-ASN,137819 // Beeks Financial Cloud (Japan)
 IP-ASN,138033 // BBIX, Inc
 IP-ASN,138181 // Hu's Tech LLC
+IP-ASN,138352 // Fractal Co., Ltd.
 IP-ASN,138384 // Rakuten Mobile Network, Inc.
 IP-ASN,138652 // Super Godzilla Communications GK
 IP-ASN,138968 // rainbow network limited
