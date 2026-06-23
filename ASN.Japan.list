@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-22 17:35:12
+// Last Updated: UTC 2026-06-23 16:53:07
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -38,6 +38,7 @@ IP-ASN,4686 // BEKKOAME INTERNET INC.
 IP-ASN,4690 // WIDE Project
 IP-ASN,4693 // CSK-IT MANAGEMENT CORPORATION
 IP-ASN,4694 // IDC Frontier Inc.
+IP-ASN,4695 // Enecom,Inc.
 IP-ASN,4697 // Nippon Telegraph and Telephone Corporation
 IP-ASN,4711 // INTEC Inc.
 IP-ASN,4713 // NTT DOCOMO BUSINESS,Inc.
