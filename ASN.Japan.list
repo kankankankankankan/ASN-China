@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-24 16:48:18
+// Last Updated: UTC 2026-06-25 16:49:45
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -510,7 +510,6 @@ IP-ASN,59127 // Newmedia Corporation
 IP-ASN,59128 // Kyoto University Microcomputer Club
 IP-ASN,59129 // LogicLinks, Inc.
 IP-ASN,59349 // GMO-Z.COM PTE. LTD.
-IP-ASN,60445 // DODO K.K.
 IP-ASN,62184 // Michal Nowak
 IP-ASN,63770 // Industrial Cyber Security Center of Excellence
 IP-ASN,63771 // Border Gateway Protocol Network Analysis Project

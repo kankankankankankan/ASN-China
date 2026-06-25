@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-06-24 16:48:18
+// Last Updated: UTC 2026-06-25 16:49:45
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -524,7 +524,6 @@ IP-ASN,38111 // HANA TI
 IP-ASN,38112 // Korea Housing   Urban Guarantee Corporation
 IP-ASN,38113 // KUMC
 IP-ASN,38114 // Shinjin Network
-IP-ASN,38117 // jin san cable net company ltd
 IP-ASN,38119 // WITHSYSTEMS
 IP-ASN,38120 // LG HelloVision Corp.
 IP-ASN,38121 // LG HelloVision Corp.
@@ -861,7 +860,6 @@ IP-ASN,152878 // Luna
 IP-ASN,153589 // VOLVO GROUP KOREA CO LTD
 IP-ASN,153782 // Com2Math, Inc.
 IP-ASN,153894 // Bada Communications
-IP-ASN,153993 // SKH Systems
 IP-ASN,153997 // PROJECT ELIV
 IP-ASN,154270 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,198840 // YUJUN KIM trading as ALCLOUD
