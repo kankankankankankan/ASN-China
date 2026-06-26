@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-06-25 16:49:45
+// Last Updated: UTC 2026-06-26 16:44:21
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -398,7 +398,6 @@ IP-ASN,38641 // Osaka Sangyo University
 IP-ASN,38642 // Yoshizou XYZ Solutions
 IP-ASN,38643 // UNIADEX, LTD.
 IP-ASN,38644 // INTERNET MULTIFEED CO.
-IP-ASN,38646 // Neodyland
 IP-ASN,38648 // F-REGI Co.,Ltd.
 IP-ASN,38649 // The University of Electro-Communications
 IP-ASN,38651 // MIXI, Inc.
@@ -650,6 +649,7 @@ IP-ASN,137508 // rainbow network limited
 IP-ASN,137819 // Beeks Financial Cloud (Japan)
 IP-ASN,138033 // BBIX, Inc
 IP-ASN,138181 // Hu's Tech LLC
+IP-ASN,138321 // Lunasla Inc.
 IP-ASN,138352 // Fractal Co., Ltd.
 IP-ASN,138384 // Rakuten Mobile Network, Inc.
 IP-ASN,138652 // Super Godzilla Communications GK
