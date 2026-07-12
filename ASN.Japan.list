@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-07-11 16:58:33
+// Last Updated: UTC 2026-07-12 16:59:09
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -305,6 +305,7 @@ IP-ASN,23804 // Nonprofit Organization Kitaura Hana Net
 IP-ASN,23805 // Watarase Television Co.,Ltd
 IP-ASN,23807 // Ritsumeikan University
 IP-ASN,23808 // TOSHIMA CABLE NETWORK CO.,LTD
+IP-ASN,23811 // APNIC ASN block
 IP-ASN,23815 // Japan Internet Xing Co., Ltd.
 IP-ASN,23816 // LY Corporation
 IP-ASN,23817 // Fujitsu Limited.
