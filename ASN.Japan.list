@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-07-16 17:16:35
+// Last Updated: UTC 2026-07-17 17:12:38
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -643,6 +643,7 @@ IP-ASN,135372 // Columbia Sportswear Japan Inc
 IP-ASN,136178 // FIL Japan Holdings K.K.
 IP-ASN,136506 // LEON CO.LTD
 IP-ASN,136586 // InComm Japan K.K.
+IP-ASN,136761 // Kalytero LLC
 IP-ASN,136779 // Schneider Electric Japan Ltd
 IP-ASN,136796 // CORELINK JAPAN
 IP-ASN,137008 // 1120 Shimokuzawa Chuo-ku Sagamihara-shi Kanagawa-ken
