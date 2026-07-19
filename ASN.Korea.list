@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-07-18 16:57:56
+// Last Updated: UTC 2026-07-19 16:58:17
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -487,6 +487,7 @@ IP-ASN,23599 // Korea Internet Security Agency
 IP-ASN,23600 // Korea Internet Security Agency
 IP-ASN,23601 // tsis
 IP-ASN,23668 // TECH UNIVERSITY OF KOREA
+IP-ASN,23713 // Internet Systems Consortium, Inc.
 IP-ASN,23714 // Keimyung University
 IP-ASN,23743 // KOREA MIDLAND POWER
 IP-ASN,23908 // IIAC
