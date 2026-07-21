@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-07-20 18:03:49
+// Last Updated: UTC 2026-07-21 17:20:33
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -399,6 +399,7 @@ IP-ASN,38641 // Osaka Sangyo University
 IP-ASN,38642 // Yoshizou XYZ Solutions
 IP-ASN,38643 // UNIADEX, LTD.
 IP-ASN,38644 // INTERNET MULTIFEED CO.
+IP-ASN,38647 // NEI's NetLab
 IP-ASN,38648 // F-REGI Co.,Ltd.
 IP-ASN,38649 // The University of Electro-Communications
 IP-ASN,38651 // MIXI, Inc.
@@ -419,6 +420,7 @@ IP-ASN,45688 // The University of Tokyo Interfaculty Initiative in Information S
 IP-ASN,45689 // Convivial Net
 IP-ASN,45690 // Nihon Central TV Co.,Inc.
 IP-ASN,45691 // DODO K.K.
+IP-ASN,49671 // DODO K.K.
 IP-ASN,51044 // Kazuki Yamaguchi
 IP-ASN,54132 // Finder Networks LLC
 IP-ASN,54415 // WIZ K.K.
