@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-07-31 17:39:48
+// Last Updated: UTC 2026-08-01 16:59:54
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -844,6 +844,7 @@ IP-ASN,152232 // kt cloud Co., Ltd
 IP-ASN,152233 // trizn inc.
 IP-ASN,152234 // GYEONGGI TRANSPORT CORPORATION
 IP-ASN,152280 // MG Credit Information
+IP-ASN,152281 // onesolution
 IP-ASN,152282 // National Fire Hospital
 IP-ASN,152283 // Korea Elevator Safety Agency
 IP-ASN,152284 // Daewoo Information Systems

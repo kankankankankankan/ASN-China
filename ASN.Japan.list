@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-07-31 17:39:47
+// Last Updated: UTC 2026-08-01 16:59:54
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -718,7 +718,7 @@ IP-ASN,151388 // SoftEther Corporation (SE-JIKKEN-AS)
 IP-ASN,151389 // Synergy Cross Corporation
 IP-ASN,151390 // RUTILEA, Inc.
 IP-ASN,152184 // Tamukai Network
-IP-ASN,152324 // APNIC ASN block
+IP-ASN,152324 // 3XNET Co., Ltd.
 IP-ASN,152645 // Flextech Inc.
 IP-ASN,152724 // Point72 Japan Limited
 IP-ASN,152858 // Woven by Toyota, Inc.
