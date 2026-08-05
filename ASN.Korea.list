@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-04 17:48:51
+// Last Updated: UTC 2026-08-05 17:37:45
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -843,6 +843,7 @@ IP-ASN,152231 // Quantil, Inc. Korea
 IP-ASN,152232 // kt cloud Co., Ltd
 IP-ASN,152233 // trizn inc.
 IP-ASN,152234 // GYEONGGI TRANSPORT CORPORATION
+IP-ASN,152277 // APNIC ASN block
 IP-ASN,152280 // MG Credit Information
 IP-ASN,152281 // onesolution
 IP-ASN,152282 // National Fire Hospital
