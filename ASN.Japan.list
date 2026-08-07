@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-05 17:37:44
+// Last Updated: UTC 2026-08-07 16:54:24
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -318,7 +318,6 @@ IP-ASN,23828 // Misaki Town
 IP-ASN,23831 // NISIOWARI CATV CORPORATION
 IP-ASN,23833 // Marusan Securities Co., LTD.
 IP-ASN,23836 // RELATION Co., Ltd.
-IP-ASN,23967 // Produce On Demand Inc. Streaming Contents Delivery Service Tokyo
 IP-ASN,24121 // Equinix Asia Pacific
 IP-ASN,24229 // IX-layers, Inc.
 IP-ASN,24248 // Wakayama University
@@ -384,7 +383,6 @@ IP-ASN,37922 // Diversitymedia Co.,Ltd.
 IP-ASN,38074 // SDCC Japan-West Area
 IP-ASN,38215 // Syuhei Uda
 IP-ASN,38462 // Osaki Computer Engineering Co.Ltd
-IP-ASN,38627 // Baidu, Inc.
 IP-ASN,38628 // HIMEJI CABLE TELEVISION CORPORATION
 IP-ASN,38629 // NTT DOCOMO BUSINESS, Inc
 IP-ASN,38631 // LY Corporation
@@ -392,12 +390,13 @@ IP-ASN,38633 // Value Core Inc.
 IP-ASN,38634 // DWANGO Co.,Ltd.
 IP-ASN,38635 // Keio University
 IP-ASN,38636 // DeNA, Co. Ltd.
-IP-ASN,38638 // Ip Core Corporation
+IP-ASN,38638 // OnairNet Inc.
 IP-ASN,38639 // NTT DOCOMO BUSINESS, Inc.
 IP-ASN,38641 // Osaka Sangyo University
 IP-ASN,38642 // Yoshizou XYZ Solutions
 IP-ASN,38643 // UNIADEX, LTD.
 IP-ASN,38644 // INTERNET MULTIFEED CO.
+IP-ASN,38646 // Neodyland
 IP-ASN,38647 // NEI's NetLab
 IP-ASN,38648 // F-REGI Co.,Ltd.
 IP-ASN,38649 // The University of Electro-Communications
@@ -421,7 +420,6 @@ IP-ASN,45690 // Nihon Central TV Co.,Inc.
 IP-ASN,45691 // DODO K.K.
 IP-ASN,49671 // DODO K.K.
 IP-ASN,51044 // Kazuki Yamaguchi
-IP-ASN,54132 // Finder Networks LLC
 IP-ASN,54415 // WIZ K.K.
 IP-ASN,55373 // Foundation for Biomedical Research and Innovation at Kobe
 IP-ASN,55374 // FUJITSU LIMITED
@@ -672,7 +670,7 @@ IP-ASN,141757 // Zoho Japan Corporation
 IP-ASN,142052 // Mempool Space K.K.
 IP-ASN,142165 // Bosch Corporation
 IP-ASN,142622 // Dream Information Laboratory
-IP-ASN,146969 // SB Technology Corp.
+IP-ASN,146969 // SoftBank Corp.
 IP-ASN,146972 // TOYO Engineering Corporation
 IP-ASN,146974 // Woven by Toyota, Inc.
 IP-ASN,146976 // Kvision Co.,Ltd.
@@ -700,6 +698,7 @@ IP-ASN,150367 // Future Corp.
 IP-ASN,150368 // SERVER-G Group
 IP-ASN,150369 // TelHi Corporation
 IP-ASN,150685 // Ching Kuo
+IP-ASN,151195 // Nova Global ICT Kabushiki Kaisha
 IP-ASN,151350 // NIPPON COMMUNICATIONS INC.
 IP-ASN,151371 // PAINA Information Development
 IP-ASN,151373 // JAPAN 3D PRINTER
