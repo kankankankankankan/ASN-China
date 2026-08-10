@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-08 16:33:49
+// Last Updated: UTC 2026-08-10 16:53:39
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -484,7 +484,6 @@ IP-ASN,59095 // ACCELIA
 IP-ASN,59096 // Meiji Gakuin University
 IP-ASN,59097 // Okinawa Cross Head Co., Ltd.
 IP-ASN,59098 // Mamireimu Net Work's
-IP-ASN,59099 // BroadBand Tower, Inc.
 IP-ASN,59102 // GENES Co., Ltd.
 IP-ASN,59103 // SoftEther Corporation
 IP-ASN,59104 // Soka University

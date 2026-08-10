@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-08 16:33:49
+// Last Updated: UTC 2026-08-10 16:53:40
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -460,7 +460,6 @@ IP-ASN,23563 // SK Broadband Co Ltd
 IP-ASN,23564 // Citibank Korea
 IP-ASN,23568 // CycleBoat Racing Business Division
 IP-ASN,23569 // SEOJEONG COLLEGE
-IP-ASN,23570 // UNIVERSITY OF INCHEON
 IP-ASN,23571 // Gangwon State Office of Education
 IP-ASN,23572 // American International Assurance Company Korea
 IP-ASN,23573 // OCI Information Communication
@@ -824,7 +823,6 @@ IP-ASN,152211 // Toss Securities Co., Ltd.
 IP-ASN,152212 // Korea Institute of Science and Technology Evaluation and Planning
 IP-ASN,152213 // MogSoft Co., Ltd.
 IP-ASN,152214 // Korean Air Lines
-IP-ASN,152215 // Korea Insurance Development Institute
 IP-ASN,152216 // Korea Insurance Development Institute
 IP-ASN,152218 // HANA CAPITAL
 IP-ASN,152219 // nextrade
