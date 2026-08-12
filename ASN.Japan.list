@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-11 16:57:13
+// Last Updated: UTC 2026-08-12 16:56:43
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -683,7 +683,6 @@ IP-ASN,146985 // KISSEI COMTEC Co.,Ltd
 IP-ASN,146986 // SUZUYO SHINWART CORPORATION
 IP-ASN,146987 // GMO GlobalSign Holdings K.K.
 IP-ASN,147035 // Ching Kuo
-IP-ASN,147295 // Metro Engines Inc
 IP-ASN,148985 // ANSYS Japan K.K.
 IP-ASN,149428 // Code200, UAB
 IP-ASN,150314 // Rivulet Networks

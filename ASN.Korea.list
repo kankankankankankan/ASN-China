@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-11 16:57:13
+// Last Updated: UTC 2026-08-12 16:56:44
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -759,7 +759,6 @@ IP-ASN,131827 // jejubank
 IP-ASN,131828 // KAKAO Enterprise
 IP-ASN,131829 // SBI SAVINGS BANK
 IP-ASN,131830 // Institute for Basic Science
-IP-ASN,131831 // NEXON KOREA
 IP-ASN,131833 // Kia Corporation
 IP-ASN,131834 // LeeKo
 IP-ASN,131835 // samyangfoods.co
