@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-15 16:24:24
+// Last Updated: UTC 2026-08-16 16:24:52
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -650,6 +650,7 @@ IP-ASN,137445 // PF LINK SYSTEMS
 IP-ASN,137508 // rainbow network limited
 IP-ASN,137819 // Beeks Financial Cloud (Japan)
 IP-ASN,138033 // BBIX, Inc
+IP-ASN,138038 // Wolf Network Lab
 IP-ASN,138181 // Hu's Tech LLC
 IP-ASN,138321 // Lunasla Inc.
 IP-ASN,138352 // Fractal Co., Ltd.
