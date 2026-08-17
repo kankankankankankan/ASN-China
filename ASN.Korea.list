@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-16 16:24:52
+// Last Updated: UTC 2026-08-17 16:27:34
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -881,6 +881,7 @@ IP-ASN,210576 // Sangmin Lee trading as YAGUMYAGUM
 IP-ASN,210919 // Navox co.,Ltd
 IP-ASN,213800 // JAIYEON SIM
 IP-ASN,214189 // Doyeon Lee
+IP-ASN,214510 // Rhajune Park
 IP-ASN,215343 // Minjae Kim
 IP-ASN,216425 // TEFEXIA Co., Ltd.
 IP-ASN,219351 // Yongun Seong
