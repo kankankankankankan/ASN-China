@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-17 16:27:33
+// Last Updated: UTC 2026-08-18 16:31:25
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -113,7 +113,7 @@ IP-ASN,9604 // FUJI SOFT INCORPORATED
 IP-ASN,9605 // NTT DOCOMO, INC.
 IP-ASN,9607 // BroadBand Tower, Inc.
 IP-ASN,9609 // BBIX, Inc.
-IP-ASN,9614 // Oita Cable Telecom Co,ltd.
+IP-ASN,9614 // JCOM Marketing Co.,Ltd.
 IP-ASN,9615 // TOYOHASHI CABLE NETWORK INC.
 IP-ASN,9617 // JCOM Co., Ltd.
 IP-ASN,9618 // catv-tokushima
@@ -454,7 +454,7 @@ IP-ASN,55900 // GLBB Japan KK
 IP-ASN,55901 // Sony Computer Entertainment Inc
 IP-ASN,55902 // TS-NET of TOSET, Inc. in Japan
 IP-ASN,55904 // KOGAKUIN University
-IP-ASN,55907 // GMO Internet Group, Inc.
+IP-ASN,55907 // GMO Internet, Inc.
 IP-ASN,55909 // National Institute of Technology, Kochi College
 IP-ASN,55910 // Shibaura Institute of Technology
 IP-ASN,55911 // kazukichi
@@ -474,7 +474,7 @@ IP-ASN,58785 // Tohoku Gakuin University
 IP-ASN,58788 // Chiroro-Net Co.,Ltd.
 IP-ASN,58789 // DUNAMIS Co.,Ltd
 IP-ASN,58790 // SERVER-G Group
-IP-ASN,58791 // GMO Internet Group, Inc.
+IP-ASN,58791 // GMO Internet, Inc.
 IP-ASN,58793 // FUJITSU LIMITED
 IP-ASN,59091 // Kanagawa Institute of Technology
 IP-ASN,59092 // kronos.Co.,Ltd.

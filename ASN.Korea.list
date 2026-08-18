@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-17 16:27:34
+// Last Updated: UTC 2026-08-18 16:31:26
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -868,7 +868,6 @@ IP-ASN,154270 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,198840 // YUJUN KIM trading as ALCLOUD
 IP-ASN,200140 // Hanseung Kim
 IP-ASN,200965 // Dongmin Lee
-IP-ASN,200983 // YoungSeo Kim
 IP-ASN,201423 // Seojun Yun
 IP-ASN,201666 // Yoonsu Son trading as YSSOFT
 IP-ASN,202002 // Jihun Lee
