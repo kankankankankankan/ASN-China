@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-18 16:31:25
+// Last Updated: UTC 2026-08-19 16:31:55
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -57,7 +57,7 @@ IP-ASN,7500 // WIDE Project
 IP-ASN,7502 // Advanced Software Technology & Management
 IP-ASN,7503 // Air Internet Service Co.,Ltd.
 IP-ASN,7505 // Fujitsu Systems Applications & Support Limited
-IP-ASN,7506 // GMO Internet Group, Inc.
+IP-ASN,7506 // GMO Internet, Inc.
 IP-ASN,7509 // Hokkaido University
 IP-ASN,7511 // SYNAPSE Co.,Ltd.
 IP-ASN,7513 // Hitachi Systems, Ltd.
