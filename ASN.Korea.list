@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-08-20 16:34:59
+// Last Updated: UTC 2026-08-21 16:34:31
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -823,6 +823,7 @@ IP-ASN,152211 // Toss Securities Co., Ltd.
 IP-ASN,152212 // Korea Institute of Science and Technology Evaluation and Planning
 IP-ASN,152213 // MogSoft Co., Ltd.
 IP-ASN,152214 // Korean Air Lines
+IP-ASN,152215 // Korea Insurance Development Institute
 IP-ASN,152216 // Korea Insurance Development Institute
 IP-ASN,152218 // HANA CAPITAL
 IP-ASN,152219 // nextrade
@@ -868,6 +869,7 @@ IP-ASN,154270 // VOLVO GROUP KOREA CO LTD, Construction Equipment Seoul
 IP-ASN,198840 // YUJUN KIM trading as ALCLOUD
 IP-ASN,200140 // Hanseung Kim
 IP-ASN,200965 // Dongmin Lee
+IP-ASN,200983 // YoungSeo Kim
 IP-ASN,201423 // Seojun Yun
 IP-ASN,201666 // Yoonsu Son trading as YSSOFT
 IP-ASN,202002 // Jihun Lee
