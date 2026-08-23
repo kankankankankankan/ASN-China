@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-22 16:24:20
+// Last Updated: UTC 2026-08-23 16:26:07
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -626,6 +626,7 @@ IP-ASN,131989 // PFU LIMITED
 IP-ASN,132119 // TECPRESSO Inc.
 IP-ASN,132211 // FX Corporate LLC
 IP-ASN,132504 // QUALITIA Co.,Ltd
+IP-ASN,132610 // APNIC ASN block
 IP-ASN,132827 // GATEWAY INC
 IP-ASN,133180 // Starbow Ltd.
 IP-ASN,133203 // SBI BITS Co., Ltd.
