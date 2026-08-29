@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-28 00:46:12
+// Last Updated: UTC 2026-08-29 00:26:26
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -749,5 +749,4 @@ IP-ASN,214772 // CHEN LUOAN
 IP-ASN,214968 // JIANG Zhirui
 IP-ASN,215239 // Show Corporation
 IP-ASN,215871 // xTom Japan Corporation
-IP-ASN,219065 // CHENGYUAN HE
 IP-ASN,401474 // ENXO LLC
