@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-08-31 21:20:16
+// Last Updated: UTC 2026-09-01 19:14:16
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -647,7 +647,7 @@ IP-ASN,136779 // Schneider Electric Japan Ltd
 IP-ASN,136796 // CORELINK JAPAN
 IP-ASN,137008 // 1120 Shimokuzawa Chuo-ku Sagamihara-shi Kanagawa-ken
 IP-ASN,137445 // PF LINK SYSTEMS
-IP-ASN,137508 // rainbow network limited
+IP-ASN,137508 // Toko Communications Co., Ltd.
 IP-ASN,137819 // Beeks Financial Cloud (Japan)
 IP-ASN,138033 // BBIX, Inc
 IP-ASN,138038 // Wolf Network Lab
