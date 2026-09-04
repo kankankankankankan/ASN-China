@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-09-03 19:09:30
+// Last Updated: UTC 2026-09-04 18:51:24
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -666,6 +666,7 @@ IP-ASN,139468 // DC Communications Inc.
 IP-ASN,139472 // Catalina Marketing Japan K.K.
 IP-ASN,140501 // Itiviti Japan K.K.
 IP-ASN,140868 // TakataSDCC Net
+IP-ASN,141461 // APNIC ASN block
 IP-ASN,141694 // Ermis Ltd.
 IP-ASN,141757 // Zoho Japan Corporation
 IP-ASN,142052 // Mempool Space K.K.
