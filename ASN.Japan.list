@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-09-07 19:38:19
+// Last Updated: UTC 2026-09-08 19:17:16
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -336,7 +336,7 @@ IP-ASN,24262 // HAMANASU INFORMATION Co., Ltd.
 IP-ASN,24263 // HONDA MOTOR Co., Ltd.
 IP-ASN,24264 // Kanazawa Institute of Technology
 IP-ASN,24268 // National University Corporation Shizuoka University
-IP-ASN,24270 // CRC Solutions Corp.,
+IP-ASN,24270 // ITOCHU Techno-Solutions Corporation
 IP-ASN,24271 // Iruma CATV co.
 IP-ASN,24275 // TOTO LTD.
 IP-ASN,24276 // JCOM Co., Ltd.
@@ -587,7 +587,7 @@ IP-ASN,131934 // ICC Corporation
 IP-ASN,131937 // Joetsu Cable Vision
 IP-ASN,131938 // NISSAN MOTOR CO.,LTD.
 IP-ASN,131939 // IPS INC
-IP-ASN,131940 // Nissho Electronics Corp.
+IP-ASN,131940 // Sojitz Tech-Innovation Co., Ltd.
 IP-ASN,131941 // Entsu Co.,Ltd.
 IP-ASN,131942 // Gurunavi, Inc.
 IP-ASN,131943 // Goto tv
@@ -666,7 +666,7 @@ IP-ASN,139468 // DC Communications Inc.
 IP-ASN,139472 // Catalina Marketing Japan K.K.
 IP-ASN,140501 // Itiviti Japan K.K.
 IP-ASN,140868 // TakataSDCC Net
-IP-ASN,141461 // APNIC ASN block
+IP-ASN,141461 // Reconciled Awareness Network
 IP-ASN,141694 // Ermis Ltd.
 IP-ASN,141757 // Zoho Japan Corporation
 IP-ASN,142052 // Mempool Space K.K.
