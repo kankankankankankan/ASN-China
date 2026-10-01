@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-09-30 20:36:32
+// Last Updated: UTC 2026-10-01 20:50:38
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -118,7 +118,7 @@ IP-ASN,9615 // TOYOHASHI CABLE NETWORK INC.
 IP-ASN,9617 // JCOM Co., Ltd.
 IP-ASN,9618 // catv-tokushima
 IP-ASN,9619 // Sony Global Solutions Inc.
-IP-ASN,9621 // Okinawa Telecommunication Network Co.,Inc
+IP-ASN,9621 // OTNet Co.,Inc.
 IP-ASN,9622 // Kurashiki Cable TV
 IP-ASN,9743 // Nippon EDUIX
 IP-ASN,9824 // JCOM Co., Ltd.
