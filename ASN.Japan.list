@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-10-09 20:35:26
+// Last Updated: UTC 2026-10-10 19:50:48
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -358,6 +358,7 @@ IP-ASN,24336 // DIGITALBANK, Inc., Regional ISP in Japan
 IP-ASN,24477 // NetApp, Inc.
 IP-ASN,24512 // HAL Internet, Internet Service Provider, Tottori, Japan
 IP-ASN,24572 // Yahoo Japan
+IP-ASN,32340 // ZenWalk
 IP-ASN,37888 // HORIBA, Ltd.
 IP-ASN,37889 // J-PARC Center
 IP-ASN,37891 // JR TOKAI Information Systems Company
