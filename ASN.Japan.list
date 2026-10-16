@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-10-15 19:43:30
+// Last Updated: UTC 2026-10-16 19:22:51
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -609,7 +609,7 @@ IP-ASN,131960 // MBO holdings Inc.
 IP-ASN,131961 // Dokkyo University
 IP-ASN,131963 // MC Digital Realty, Inc.
 IP-ASN,131964 // FAMILYNET JAPAN CORPORATION
-IP-ASN,131965 // Xserver Inc.
+IP-ASN,131965 // XServer Cloud Inc.
 IP-ASN,131966 // I-NET CORP.
 IP-ASN,131969 // Suzuyo Shinwart Corporation
 IP-ASN,131970 // Hikarinet Inc.
