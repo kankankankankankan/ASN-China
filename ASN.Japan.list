@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-10-23 19:49:11
+// Last Updated: UTC 2026-10-24 18:36:52
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -742,6 +742,7 @@ IP-ASN,153929 // Allied Business Inc.
 IP-ASN,199436 // BangLong Yang
 IP-ASN,199767 // Pinjia Zhao
 IP-ASN,201345 // Shuma Watanabe
+IP-ASN,211121 // Tiger Network Limited
 IP-ASN,211252 // Marushin K.K.
 IP-ASN,212259 // Astrix Co., Ltd.
 IP-ASN,213471 // YAMAMOTO Hiroshi
