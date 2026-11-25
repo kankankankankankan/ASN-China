@@ -1,5 +1,5 @@
 // ASN Information in Korea. (https://bgp.he.net/country/KR)
-// Last Updated: UTC 2026-10-24 18:36:52
+// Last Updated: UTC 2026-11-25 05:45:22
 // Generated from config/asn_countries.json
 
 IP-ASN,1237 // KISTI
@@ -844,10 +844,10 @@ IP-ASN,152234 // GYEONGGI TRANSPORT CORPORATION
 IP-ASN,152275 // Korea Power Exchange
 IP-ASN,152277 // AMKOR
 IP-ASN,152280 // MG Credit Information
-IP-ASN,152281 // onesolution
+IP-ASN,152281 // SHARE.DEV Co., Ltd.
 IP-ASN,152282 // National Fire Hospital
 IP-ASN,152283 // Korea Elevator Safety Agency
-IP-ASN,152284 // Daewoo Information Systems
+IP-ASN,152284 // WOORI FINANCIAL CAPITAL
 IP-ASN,152285 // welcomepayments
 IP-ASN,152286 // Meritz Securities Co., Ltd.
 IP-ASN,152287 // HANWHALIFE

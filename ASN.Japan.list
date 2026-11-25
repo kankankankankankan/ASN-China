@@ -1,5 +1,5 @@
 // ASN Information in Japan. (https://bgp.he.net/country/JP)
-// Last Updated: UTC 2026-10-24 18:36:52
+// Last Updated: UTC 2026-11-25 05:45:21
 // Generated from config/asn_countries.json
 
 IP-ASN,173 // Nippon Telegraph and Telephone Corporation
@@ -421,7 +421,7 @@ IP-ASN,45690 // Nihon Central TV Co.,Inc.
 IP-ASN,45691 // DODO K.K.
 IP-ASN,49671 // DODO K.K.
 IP-ASN,51044 // Kazuki Yamaguchi
-IP-ASN,54415 // WIZ K.K.
+IP-ASN,54415 // Wiz & Associates K.K.
 IP-ASN,55373 // Foundation for Biomedical Research and Innovation at Kobe
 IP-ASN,55374 // FUJITSU LIMITED
 IP-ASN,55376 // KCV Communications Co. Ltd.
@@ -710,7 +710,7 @@ IP-ASN,151376 // Solare Hotels and Resorts Co., Ltd.
 IP-ASN,151377 // Solare Hotels and Resorts Co., Ltd.
 IP-ASN,151378 // Credit SAISON Co., Ltd.
 IP-ASN,151379 // OPTAGE Inc.
-IP-ASN,151380 // Transform Co., Ltd.
+IP-ASN,151380 // APNIC ASN block
 IP-ASN,151383 // EZSVS Japan Co., Ltd.
 IP-ASN,151385 // Japanet Holdings Co.,Ltd.
 IP-ASN,151386 // NHN Cloud Japan Corporation
@@ -741,6 +741,7 @@ IP-ASN,152877 // Nintendo Co., Ltd
 IP-ASN,153929 // Allied Business Inc.
 IP-ASN,199436 // BangLong Yang
 IP-ASN,199767 // Pinjia Zhao
+IP-ASN,200455 // HOTARU NETWORK LTD.
 IP-ASN,201345 // Shuma Watanabe
 IP-ASN,211121 // Tiger Network Limited
 IP-ASN,211252 // Marushin K.K.
